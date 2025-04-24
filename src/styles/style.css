@@ -1,0 +1,51 @@
+@font-face{
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Regular.ttf');
+}
+
+@font-face{
+    font-family:'Inter';
+    src: url('../fonts/Inter-Regular.ttf');
+}
+
+*{
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    font-size: 309.34px;
+    font-family: 'Playfair Display';
+}
+
+h2{
+    font-size: 81.31px;
+}
+
+h3{
+    font-size: 44.75px;
+}
+
+button{
+    background-color: white;
+    color: black;
+    font-size: 38.41px;
+}
+
+nav{
+    width: 100%;
+    font-size: 20px;
+    gap: 725.27px;
+    margin-top: 79.79px;
+    margin-left: 109.73px;
+    margin-right: 104px;
+}
+
+header{
+    width: 100%;
+    font-size: 24px;
+
+}
