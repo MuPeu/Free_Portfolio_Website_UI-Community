@@ -19,10 +19,17 @@ body{
 h1{
     font-size: 309.34px;
     font-family: 'Playfair Display';
+    margin: 0;
+    align-self: center;
 }
 
 h2{
     font-size: 81.31px;
+    align-self: center;
+}
+
+.portfolio-container{
+    align-self: center;
 }
 
 h3{
@@ -32,20 +39,75 @@ h3{
 button{
     background-color: white;
     color: black;
+}
+
+.quote{
     font-size: 38.41px;
+    position: relative;
+    transform: translate(600px, 0);
+}
+
+.see-all{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
 }
 
 nav{
-    width: 100%;
+    width: 1.139px;
     font-size: 20px;
-    gap: 725.27px;
+    gap: 500px;
     margin-top: 79.79px;
-    margin-left: 109.73px;
+    margin-left: 65px;
+    display: inline-flex;
+}
+
+.menu{
+    display: inline-flex;
+    gap: 57px;
     margin-right: 104px;
 }
 
 header{
     width: 100%;
+    position: relative;
     font-size: 24px;
+    align-items: center;
+    gap: 22px;
+    margin-top: 100px;
+}
 
+.paragraph{
+    width: 678px;
+    padding-left: 65px;
+    padding-top: 149.6px;
+    margin: 0;
+}
+
+.commets{
+    background-color: #181818;
+}
+
+.painting1{
+    position: absolute;
+    z-index: -1;
+    right: -75px;
+    top: 0;
+}
+
+.painting2{
+    position: absolute;
+    z-index: -1;
+    left: -75px;
+    bottom: 0;
+}
+
+.about-img{
+    display: inline-flex;
+    gap: 71px;
+    margin-left: 50px;
+}
+
+.about{
+    width: 550px;
 }
