@@ -33,13 +33,13 @@
     </main>
     <div class="portfolio-container">
         <h2>Portfolio</h2>
-        <div class="columns">
-            <div class="column1">
+        <div class="portfolio-row">
+            <div class="portfolio-column1">
                 <img src="src/assets/image/image3.png" alt="painting 3" width="577.09px" height="995.48px">
                 <img src="src/assets/image/image6.png" alt="painting 6" width="577.09px" height="818.34px">
                 <img src="src/assets/image/image7.png" alt="painting 7" width="577.09px" height="802.87px">
             </div>
-            <div class="column2">
+            <div class="portfolio-column2">
                 <img src="src/assets/image/image4.png" alt="painting 4" width="577.09px" height="624.7px">
                 <img src="src/assets/image/image5.png" alt="painting 5" width="577.09px" height="1389.22px">
                 <img src="src/assets/image/image8.png" alt="painting 8" width="577.09px" height="605.76px">
@@ -57,42 +57,75 @@
         </div>
     </div>
     <div class="testimonials-container">
-        <h2>Tentimonials</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <div class="commets">
-            <h3>“Amazing Team with Lorem Ipsum”</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,</p>
-            <a>See full review</a>
-            <img src="src/assets/image/photo2.png" alt="photo 2" width="309.01px" height="327.08px">
+        <div class="title">
+            <h2>Tentimonials</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>    
         </div>
-        <div class="commets">
-            <h3>“Amazing Team with Lorem ipsum”</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,</p>
-            <a>See full review</a>
-            <img src="src/assets/image/photo4.png" alt="photo 4" width="309.01px" height="327.08px">
-        </div>
-        <div class="commets">
-            <h3>“Amazing Team with Lorem ipsum”</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,</p>
-            <a>See full review</a>
-            <img src="src/assets/image/photo3.png" alt="photo 3" width="309.01px" height="327.08px">
+        <div class="testimonials-row">
+            <div class="testimonials-column1">
+                <div class="commet1">
+                    <img src="src/assets/image/photo2.png" alt="photo 2" width="309.01px" height="327.08px">
+                    <div class="content">
+                        <h3>“Amazing Team with Lorem Ipsum”</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,</p>
+                        <div class="arrow">
+                            <a>See full review</a>
+                            <img src="src/assets/image/arrow.png" alt="arrow" width="30px" height="22px">
+                        </div>
+                    </div>
+                </div>
+                <div class="commet2">
+                    <div class="content">
+                        <h3>“Amazing Team with Lorem ipsum”</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,</p>
+                        <div class="arrow">
+                            <a>See full review</a>
+                            <img src="src/assets/image/arrow.png" alt="arrow" width="30px" height="22px">
+                        </div>
+                    </div>
+                    <img src="src/assets/image/photo4.png" alt="photo 4" width="309.01px" height="327.08px">
+                </div>
+            </div>
+            <div class="testimonials-column2">
+                <div class="commet3">
+                    <img src="src/assets/image/photo3.png" alt="photo 3" width="309.01px" height="327.08px">
+                    <div class="content">
+                        <h3>“Amazing Team with Lorem ipsum”</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,</p>
+                        <div class="arrow">
+                            <a>See full review</a>
+                            <img src="src/assets/image/arrow.png" alt="arrow" width="30px" height="22px">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <button class="see-all">See All Reviews</button>
     </div>
-    <div class="contact_container">
+    <div class="contact-container">
         <h2>Contact</h2>
-        <h3>Name</h3>
-        <input type="text" placeholder="Jhon Doe" required>
-        <h3>Email</h3>
-        <input type="text" placeholder="jhon@email.com" required>
-        <h3>Message</h3>
-        <input type="text" placeholder="Enter your message here..." required>
-        <button>Send</button>
+        <div class="contact-content">
+            <div class="name">
+                <h3>Name</h3>
+                <input type="text" placeholder="Jhon Doe" required>
+            </div>
+            <div class="email">
+                <h3>Email</h3>
+                <input type="text" placeholder="jhon@email.com" required>
+            </div>
+            <div class="message">
+                <h3>Message</h3>
+                <input type="text" placeholder="Enter your message here..." required>
+            </div>
+            <button>Send</button>
+        </div>
     </div>
     <footer>
         <p>2022 Company</p>
-        <a href="">Privacy Policy</a>
-        <a href="">Terms and Conditions</a>
+        <div class="links">
+            <a href="">Privacy Policy</a>
+            <a href="">Terms and Conditions</a>
+        </div>
     </footer>
 </body>
 </html>
